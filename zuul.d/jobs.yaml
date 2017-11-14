@@ -1,0 +1,5 @@
+- job:
+    name: base
+    parent: null
+    description: Base job that all jobs originate from.
+    pre-run: playbooks/base/pre.yaml

@@ -1,4 +1,2 @@
-- hosts: localhost
+- hosts: all
   tasks: []
-  roles:
-      - { role: prepare-workspace }

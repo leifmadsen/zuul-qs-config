@@ -3,8 +3,6 @@
     parent: null
     description: Base job that all jobs originate from.
     pre-run: playbooks/base/pre.yaml
-    roles:
-        - zuul: openstack-infra/zuul-jobs
     nodeset:
         nodes:
             - name: centos-7-small

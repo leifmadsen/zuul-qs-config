@@ -4,7 +4,7 @@
     description: Base job that all jobs originate from.
     pre-run: playbooks/base/pre.yaml
     roles:
-      - roles/prepare-workspace
+        - zuul: openstack-infa/zuul-jobs
     nodeset:
         nodes:
             - name: centos-7-small

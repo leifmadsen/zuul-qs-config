@@ -3,6 +3,8 @@
     parent: null
     description: Base job that all jobs originate from.
     pre-run: playbooks/base/pre.yaml
+    roles:
+      - roles/prepare-workspace
     nodeset:
         nodes:
             - name: centos-7-small

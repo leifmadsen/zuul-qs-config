@@ -1,3 +1,4 @@
 - hosts: localhost
-  debug:
-      msg: Executing the base run
+  tasks: []
+  roles:
+      - { role: prepare-workspace }
